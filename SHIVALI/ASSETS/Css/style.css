@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: cadetblue;
+}
+.nav{
+    background-color: burlywood;
+}
+.navbar{
+    display: flex;
+}
+.left-nav{
+    flex: 30% ;
+    background-color: blueviolet;
+    text-align: center;
+}
+.left-nav h1{
+    font-size: 80px ;
+}
+.right-nav{
+    flex: 70% ;
+     background-color: brown;
+     text-align: center;
+     padding-top: 20px;
+}
+.right-nav ul{
+    list-style-type: none;
+}
+.right-nav ul li {
+    display: inline;
+}
+.right-nav ul li a {
+    color: black;
+    font-weight: 650 ;
+    text-decoration: none ;
+    font-size:50px;
+    margin-right: 30px ;
+}
+/* drop-down-list coding starts here */
+ .drop-dowm-list{
+    height: auto;
+    width: 100px;
+    position: absolute;
+    background-color: bisque;
+ }
